@@ -1,0 +1,26 @@
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\bin\Debug\entidad.dll
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\bin\Debug\entidad.pdb
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\bin\Debug\entidad.xml
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\obj\Debug\entidad.Resources.resources
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\obj\Debug\entidad.vbproj.GenerateResource.Cache
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\obj\Debug\entidad.dll
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\obj\Debug\entidad.xml
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\obj\Debug\entidad.pdb
+C:\Users\PCRicardoFernando\Documents\ricardo\Projects\MedHistorias\entidad\bin\Debug\entidad.dll
+C:\Users\PCRicardoFernando\Documents\ricardo\Projects\MedHistorias\entidad\bin\Debug\entidad.pdb
+C:\Users\PCRicardoFernando\Documents\ricardo\Projects\MedHistorias\entidad\bin\Debug\entidad.xml
+C:\Users\PCRicardoFernando\Documents\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.Resources.resources
+C:\Users\PCRicardoFernando\Documents\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.vbproj.GenerateResource.Cache
+C:\Users\PCRicardoFernando\Documents\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.dll
+C:\Users\PCRicardoFernando\Documents\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.xml
+C:\Users\PCRicardoFernando\Documents\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.pdb
+C:\Users\Ricardo\Documents\Linux\ricardo\Projects\MedHistorias\entidad\bin\Debug\entidad.dll
+C:\Users\Ricardo\Documents\Linux\ricardo\Projects\MedHistorias\entidad\bin\Debug\entidad.pdb
+C:\Users\Ricardo\Documents\Linux\ricardo\Projects\MedHistorias\entidad\bin\Debug\entidad.xml
+C:\Users\Ricardo\Documents\Linux\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.vbproj.AssemblyReference.cache
+C:\Users\Ricardo\Documents\Linux\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.Resources.resources
+C:\Users\Ricardo\Documents\Linux\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.vbproj.GenerateResource.cache
+C:\Users\Ricardo\Documents\Linux\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.vbproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Documents\Linux\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.dll
+C:\Users\Ricardo\Documents\Linux\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.xml
+C:\Users\Ricardo\Documents\Linux\ricardo\Projects\MedHistorias\entidad\obj\Debug\entidad.pdb

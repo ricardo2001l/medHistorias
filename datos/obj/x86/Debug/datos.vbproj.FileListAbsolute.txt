@@ -1,0 +1,15 @@
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\bin\x86\Debug\datos.dll
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\bin\x86\Debug\datos.pdb
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\bin\x86\Debug\datos.xml
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\bin\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\bin\x86\Debug\entidad.dll
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\bin\x86\Debug\itextsharp.dll
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\bin\x86\Debug\entidad.pdb
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\bin\x86\Debug\entidad.xml
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\bin\x86\Debug\itextsharp.xml
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\obj\x86\Debug\datos.vbprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\obj\x86\Debug\datos.Resources.resources
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\obj\x86\Debug\datos.vbproj.GenerateResource.Cache
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\obj\x86\Debug\datos.dll
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\obj\x86\Debug\datos.xml
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\datos\obj\x86\Debug\datos.pdb
