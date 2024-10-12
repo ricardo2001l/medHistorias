@@ -1,0 +1,8 @@
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\bin\x86\Debug\entidad.dll
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\bin\x86\Debug\entidad.pdb
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\bin\x86\Debug\entidad.xml
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\obj\x86\Debug\entidad.Resources.resources
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\obj\x86\Debug\entidad.vbproj.GenerateResource.Cache
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\obj\x86\Debug\entidad.dll
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\obj\x86\Debug\entidad.xml
+C:\Users\Ricardo\Documents\Visual Studio 2010\Projects\MedHistorias\entidad\obj\x86\Debug\entidad.pdb

@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC1AD633-43D6-4527-819B-137F68B2F4AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MedHistorias.My.MyApplication</StartupObject>
+    <RootNamespace>MedHistorias</RootNamespace>
+    <AssemblyName>MedHistorias</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MedHistorias.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MedHistorias.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MedHistorias.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MedHistorias.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>MedHistorias.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>MedHistorias.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ayuda\acercaDe.Designer.vb">
+      <DependentUpon>acercaDe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ayuda\acercaDe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ayuda\menuAyuda.Designer.vb">
+      <DependentUpon>menuAyuda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ayuda\menuAyuda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaMedica\addConsultaMedica.Designer.vb">
+      <DependentUpon>addConsultaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultaMedica\addConsultaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaMedica\conConsultaMedica.Designer.vb">
+      <DependentUpon>conConsultaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultaMedica\conConsultaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaMedica\delConsultaMedica.Designer.vb">
+      <DependentUpon>delConsultaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultaMedica\delConsultaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaMedica\infConsultaMedica.Designer.vb">
+      <DependentUpon>infConsultaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultaMedica\infConsultaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaMedica\menuConsultaMedica.Designer.vb">
+      <DependentUpon>menuConsultaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultaMedica\menuConsultaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaMedica\modConsultaMedica.Designer.vb">
+      <DependentUpon>modConsultaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultaMedica\modConsultaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fformularios.vb" />
+    <Compile Include="historiaMedica\addHistoriaMedica.Designer.vb">
+      <DependentUpon>addHistoriaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="historiaMedica\addHistoriaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historiaMedica\conHistoriaMedica.Designer.vb">
+      <DependentUpon>conHistoriaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="historiaMedica\conHistoriaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historiaMedica\delHistoriaMedica.Designer.vb">
+      <DependentUpon>delHistoriaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="historiaMedica\delHistoriaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historiaMedica\infHistoriaMedica.Designer.vb">
+      <DependentUpon>infHistoriaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="historiaMedica\infHistoriaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historiaMedica\menuHistoriaMedica.Designer.vb">
+      <DependentUpon>menuHistoriaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="historiaMedica\menuHistoriaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historiaMedica\modHistoriaMedica.Designer.vb">
+      <DependentUpon>modHistoriaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="historiaMedica\modHistoriaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medico\addMedico.Designer.vb">
+      <DependentUpon>addMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="medico\addMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medico\conMedico.Designer.vb">
+      <DependentUpon>conMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="medico\conMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medico\conPuesto.Designer.vb">
+      <DependentUpon>conPuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="medico\conPuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medico\delMedico.Designer.vb">
+      <DependentUpon>delMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="medico\delMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medico\infMedico.Designer.vb">
+      <DependentUpon>infMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="medico\infMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medico\menuMedico.Designer.vb">
+      <DependentUpon>menuMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="medico\menuMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medico\modMedico.Designer.vb">
+      <DependentUpon>modMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="medico\modMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medico\puesto.Designer.vb">
+      <DependentUpon>puesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="medico\puesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paciente\addPaciente.Designer.vb">
+      <DependentUpon>addPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paciente\addPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paciente\conPaciente.Designer.vb">
+      <DependentUpon>conPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paciente\conPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paciente\delPaciente.Designer.vb">
+      <DependentUpon>delPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paciente\delPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paciente\infPaciente.Designer.vb">
+      <DependentUpon>infPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paciente\infPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paciente\menuPaciente.Designer.vb">
+      <DependentUpon>menuPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paciente\menuPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paciente\modPaciente.Designer.vb">
+      <DependentUpon>modPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paciente\modPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usuario\addUsuario.Designer.vb">
+      <DependentUpon>addUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\addUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baseDatos.Designer.vb">
+      <DependentUpon>baseDatos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="baseDatos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iniciarSesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iniciarSesion.Designer.vb">
+      <DependentUpon>iniciarSesion.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainMenu.Designer.vb">
+      <DependentUpon>mainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="usuario\conUsuario.Designer.vb">
+      <DependentUpon>conUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\conUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usuario\delUsuario.Designer.vb">
+      <DependentUpon>delUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\delUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usuario\menuUsuario.Designer.vb">
+      <DependentUpon>menuUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\menuUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usuario\modUsuario.Designer.vb">
+      <DependentUpon>modUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\modUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ayuda\acercaDe.resx">
+      <DependentUpon>acercaDe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ayuda\menuAyuda.resx">
+      <DependentUpon>menuAyuda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaMedica\addConsultaMedica.resx">
+      <DependentUpon>addConsultaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaMedica\conConsultaMedica.resx">
+      <DependentUpon>conConsultaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaMedica\delConsultaMedica.resx">
+      <DependentUpon>delConsultaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaMedica\infConsultaMedica.resx">
+      <DependentUpon>infConsultaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaMedica\menuConsultaMedica.resx">
+      <DependentUpon>menuConsultaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaMedica\modConsultaMedica.resx">
+      <DependentUpon>modConsultaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historiaMedica\addHistoriaMedica.resx">
+      <DependentUpon>addHistoriaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historiaMedica\conHistoriaMedica.resx">
+      <DependentUpon>conHistoriaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historiaMedica\delHistoriaMedica.resx">
+      <DependentUpon>delHistoriaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historiaMedica\infHistoriaMedica.resx">
+      <DependentUpon>infHistoriaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historiaMedica\menuHistoriaMedica.resx">
+      <DependentUpon>menuHistoriaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historiaMedica\modHistoriaMedica.resx">
+      <DependentUpon>modHistoriaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medico\addMedico.resx">
+      <DependentUpon>addMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medico\conMedico.resx">
+      <DependentUpon>conMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medico\conPuesto.resx">
+      <DependentUpon>conPuesto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medico\delMedico.resx">
+      <DependentUpon>delMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medico\infMedico.resx">
+      <DependentUpon>infMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medico\menuMedico.resx">
+      <DependentUpon>menuMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medico\modMedico.resx">
+      <DependentUpon>modMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medico\puesto.resx">
+      <DependentUpon>puesto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paciente\addPaciente.resx">
+      <DependentUpon>addPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paciente\conPaciente.resx">
+      <DependentUpon>conPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paciente\delPaciente.resx">
+      <DependentUpon>delPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paciente\infPaciente.resx">
+      <DependentUpon>infPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paciente\menuPaciente.resx">
+      <DependentUpon>menuPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paciente\modPaciente.resx">
+      <DependentUpon>modPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuario\addUsuario.resx">
+      <DependentUpon>addUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baseDatos.resx">
+      <DependentUpon>baseDatos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iniciarSesion.resx">
+      <DependentUpon>iniciarSesion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainMenu.resx">
+      <DependentUpon>mainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuario\conUsuario.resx">
+      <DependentUpon>conUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuario\delUsuario.resx">
+      <DependentUpon>delUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuario\menuUsuario.resx">
+      <DependentUpon>menuUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuario\modUsuario.resx">
+      <DependentUpon>modUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\datos\datos.vbproj">
+      <Project>{5B6B573E-E0F5-4346-B05E-747D1FDE89E8}</Project>
+      <Name>datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entidad\entidad.vbproj">
+      <Project>{7E258C4C-C92D-4BF6-872E-3E6F43083942}</Project>
+      <Name>entidad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
